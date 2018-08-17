@@ -1,0 +1,108 @@
+#bg{
+    width: 7.5rem;
+    height: 100vh;
+    background-size: cover;
+    background: url("../img/bg_02.png");
+    position: relative;
+}
+#bg-color{
+    width: 7.5rem;
+    height: 100vh;
+    background: rgba(29,29,29,0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+#container{
+    position: absolute;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    padding: 0.4rem 0.26rem 0 0.26rem;
+}
+#top{
+    width: 7.02rem;
+    padding: 0 0.2rem;
+    height: 0.62rem;
+    background: rgba(16,200,240,0.05);
+    display: flex;
+}
+#search input{
+    color: #fff;
+    width: 5.94rem;
+    height: 0.62rem;
+    line-height: 0.62rem;
+    font-size: 21px;
+    background: transparent;
+    border: none;
+}
+#false-btn{
+    width: 0.62rem;
+    height: 0.62rem;
+    background: url("../img/false-btn_03.png") no-repeat center/100% auto;
+}
+#put{
+    padding:0 0.2rem;
+    width: 6.58rem;
+    height: 1.50rem;
+    line-height: 1.50rem;
+    font-size: 37px;
+    color: #fff;
+}
+#tags{
+    width: 7.02rem;
+    padding: 0.54rem 0.2rem 0 0.2rem;
+}
+#bigger{
+    height: 0.42rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.48rem;
+}
+.tag-item1:nth-child(2n-1){
+    width: 1.16rem;
+    border: 1px #9e8117 solid;
+    background: #f0c310;
+    border-radius: 0.21rem;
+    text-align: center;
+    line-height: 0.42rem;
+    font-size: 13px;
+    color: #9e8117 ;
+}
+.tag-item1:nth-child(2n){
+    width: 1.16rem;
+    border: 1px #9e8117 solid;
+    border-radius: 0.21rem;
+    text-align: center;
+    line-height: 0.42rem;
+    font-size: 13px;
+    color: #9e8117 ;
+}
+#smaller{
+    height: 0.42rem;
+    width: 5.34rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.tag-item:nth-child(2n-1){
+    width: 1.02rem;
+    border: 1px #9e8117 solid;
+    background: #f0c310;
+    border-radius: 0.21rem;
+    text-align: center;
+    line-height: 0.42rem;
+    font-size: 13px;
+    color: #9e8117 ;
+}
+.tag-item:nth-child(2n){
+    width: 1.02rem;
+    border: 1px #9e8117 solid;
+    border-radius: 0.21rem;
+    text-align: center;
+    line-height: 0.42rem;
+    font-size: 13px;
+    color: #9e8117 ;
+}
